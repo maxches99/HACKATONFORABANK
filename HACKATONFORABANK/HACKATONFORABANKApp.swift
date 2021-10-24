@@ -11,7 +11,7 @@ import SwiftUI
 struct HACKATONFORABANKApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HistoryConfigurator.configure()
         }
     }
 }
